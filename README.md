@@ -1,4 +1,8 @@
 # llm-fragments-doc
+[![PyPI](https://img.shields.io/pypi/v/llm-fragments-doc.svg)](https://pypi.org/project/llm-fragments-doc/)
+[![Changelog](https://img.shields.io/github/v/release/mbode/llm-fragments-doc?include_prereleases&label=changelog)](https://github.com/mbode/llm-fragments-doc/releases)
+[![Tests](https://github.com/mbode/llm-fragments-doc/actions/workflows/test.yml/badge.svg)](https://github.com/mbode/llm-fragments-doc/actions/workflows/test.yml)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/mbode/llm-fragments-doc/blob/main/LICENSE)
 
 Load documents as fragments. Uses [docling](https://github.com/docling-project/docling) for parsing.
 
