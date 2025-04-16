@@ -5,7 +5,7 @@ from llm_fragments_doc import doc_loader
 def test_fragment_is_loaded_from_pdf(tmp_path):
     pdf = FPDF()
     pdf.add_page()
-    pdf.set_font("Arial", size=10)
+    pdf.set_font("Helvetica", size=10)
     content = "Hello world!"
     pdf.cell(text=content)
 
