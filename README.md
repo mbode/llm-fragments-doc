@@ -18,11 +18,23 @@ llm -f doc:https://pdfobject.com/pdf/sample.pdf 'What kind of document is this?'
 
 ## Development
 
+### Local Setup
+
 To set up this plugin locally, first checkout the code, then install:
 ```shell
 cd llm-fragments-doc
 uv run llm install -e .
 ```
+
+### Linting & formatting via pre-commit
+
+Install:
+
+```shell
+uv run pre-commit install
+```
+
+### Tests
 
 Run tests:
 ```shell
